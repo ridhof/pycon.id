@@ -19,7 +19,7 @@ export default function Index() {
             <div className="flex min-h-[300px] w-full items-center bg-primary-100 lg:min-h-[430px] 2xl:min-h-[550px] lg:px-5">
                 <div className="mx-auto my-10 flex w-full max-w-7xl flex-col items-center justify-between md:flex-col 2xl:flex-row lg:flex-row">
                     <div 
-                        className="w-full h-[26vh] md:h-[36vh] lg:h-[70vh] xl:h-[76vh] relative"
+                        className="w-full relative"
                     >
                         <iframe
                             src={`https://streamyard.com/watch/${studioID}?embed=true`}
